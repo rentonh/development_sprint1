@@ -140,3 +140,17 @@
 .footerbar p {
   margin: 5px auto;
 }
+
+/*Button going up css*/
+
+#fixedbutton {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.Fixed {
+	position: fixed;
+	bottom: 250px;
+	left: 13px;
+}
