@@ -43,7 +43,6 @@
 
 .navbar {
   width: 100%;
-  min-height: 30px;
   background-color: #b12818;
 
   float:left;
@@ -55,9 +54,8 @@
 .navbar-nav {
   width:100%;
   text-align: left;
-  margin-top: 3px;
-  font-size: 20px;
-  padding: 0 5px;
+  font-size: 25px;
+
 }
 
 .navbar-nav a {
@@ -67,11 +65,14 @@
   padding: 0 10px;
   color: #fff;
   float: left;
+  text-decoration: none;
+  /*font-size: 25px;*/
 }
 
 .navbar-nav a:hover {
-  color: #fff;
-  background-color: #9c2818;
+  color: #000;
+  background-color: #ffec9f;
+
 }
 
 .buttonbar,.navbar.minwidth {
@@ -80,7 +81,8 @@
 
 
 .CB-linkbtn2 {
-  border-radius: 2px;
+
+  border-radius: 1px;
   background-color: #056571;
   color: #fff;
   margin-top: 2px;
@@ -96,7 +98,6 @@
 /*body row*/
 .contentrow {
   width:100%;
-  height:90%;
 }
 
 .sidebar {
@@ -122,18 +123,17 @@
 
 .contentbar {
   width: 100%;
-  min-height: 300px;
   background-color: #fff;
-  border: 2px solid black;
+  /*border: 1px solid black;*/
   float:left;
-  margin: 1px 1px;
+  /*margin: 1px 1px;*/
   text-align: center;
 }
 .contentbar-nav {
   margin: auto;
   width: 70%;
   text-align: left;
-  padding-left: 15px;
+  /*padding-left: 15px;*/
 }
 
 .footerrow {
@@ -146,11 +146,19 @@
   background-color: #03376a;
   text-align: center;
   color:#fff;
-  font-size: 30px;
+  font-size: 15px;
 }
 .footerbar p {
   margin: 5px auto;
 }
+.footerbar a {
+  color:#ffa;
+  text-decoration: none;
+}
+.footerbar li {
+  display: inline;
+}
+
 
 /*Button going up css*/
 
