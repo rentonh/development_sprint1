@@ -46,7 +46,7 @@
   background-color: #b12818;
 
   float:left;
-  margin: 3px 1px 0;
+  margin: 8px 8px 10;
   text-align: right;
   color: #fff;
 }
@@ -168,8 +168,105 @@
     right: 10px;
 }
 
+.upButton {
+  width: 4px;
+  height: 4px;
+}
+
+/*Side Nav*/
+
 .Fixed {
 	position: fixed;
 	bottom: 250px;
-	left: 13px;
+	right: 0px
+}
+
+.floatNav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: red;
+}
+
+.floatNav li {
+float: center;
+}
+
+.floatNav li a {
+display: block;
+color: white;
+text-align: center;
+padding: 16px 5px;
+text-decoration: none;
+}
+
+.floatNav li a:hover {
+background-color: Lightblue;
+}
+
+.floatNav li a:hover:not(.active) {
+background-color: Lightgreen;
+}
+
+.active {
+background-color: grey;
+}
+
+/*card*/
+
+.hpcard {
+  display:inline-block;
+  box-shadow: 0 4px 8px 0 white;
+  transition: 0.3s;
+  width: 10%; /*change size of card directly*/
+  border-radius: 5px;
+  border-style: solid;
+  border-color: lightblue;
+  min-width: 400px; /*change minimum size of card */
+}
+
+img {
+border-radius: 5px 5px 0 0;
+width:100%;
+height:150px;
+}
+
+.hpcard:hover {
+  box-shadow: 0 8px 16px 0 lightblue;
+}
+
+
+.hpcontainer {
+  padding: 4px 16px;
+  text-align: center;
+}
+
+.txt_center {
+  text-align: center
+}
+
+.hpbutton {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.hpbuttonGreen {
+  background-color: white;
+  color: black;
+  border: 1px solid lightblue;
+}
+
+.hpbuttonGreen:hover {
+  background-color: green;
+  color: white;
 }
