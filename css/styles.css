@@ -4,7 +4,6 @@ body {
 }
 
 /* new */
-
 .banner {
   width:100%;
   text-align: right;
@@ -49,7 +48,6 @@ body {
 .navbar {
   width: 100%;
   background-color: #b12818;
-
   float:left;
   margin: 8px 8px 10;
   text-align: right;
@@ -59,8 +57,6 @@ body {
 .navbar-nav {
   width:100%;
   text-align: left;
-
-
 }
 
 .navbar-nav a {
@@ -71,13 +67,11 @@ body {
   color: #fff;
   float: left;
   text-decoration: none;
-  /*font-size: 25px;*/
 }
 
 .navbar-nav a:hover {
   color: #000;
   background-color: #ffec9f;
-
 }
 
 .buttonbar,.navbar.minwidth {
@@ -86,7 +80,6 @@ body {
 
 
 .CB-linkbtn2 {
-
   border-radius: 1px;
   background-color: #056571;
   color: #fff;
@@ -108,7 +101,6 @@ body {
 .sidebar {
   width: 30%;
   height: 90%;
-
   min-height: 300px;
   border-radius: 5px;
   background-color: #ccc;
@@ -118,10 +110,12 @@ body {
   border: 2px solid black;
   margin: 1px 1px;
 }
+
 .sidebar-nav {
   width:100%;
   text-align: center;
 }
+
 .sidebar-nav:hover {
   background-color: #aaa;
 }
@@ -129,23 +123,21 @@ body {
 .contentbar {
   width: 100%;
   background-color: #fff;
-  /*border: 1px solid black;*/
   float:left;
-  /*margin: 1px 1px;*/
   text-align: left;
 }
+
 .contentbar-nav {
   margin: auto;
   width: 70%;
   text-align: center;
-  /*padding-left: 15px;*/
   padding: 5px 5px 0;
-
 }
 
 .footerrow {
   width: 100%;
 }
+
 .footerbar {
   width: 100%;
   float:left;
@@ -155,20 +147,21 @@ body {
   color:#fff;
   font-size: 15px;
 }
+
 .footerbar p {
   margin: 5px auto;
 }
+
 .footerbar a {
   color:#ffa;
   text-decoration: none;
 }
+
 .footerbar li {
   display: inline;
 }
 
-
 /*Button going up css*/
-
 #fixedbutton {
     position: fixed;
     top: 570px;
@@ -186,7 +179,6 @@ body {
 }
 
 /*Side Nav*/
-
 .Fixed {
 	position: fixed;
 	top: 10px;
@@ -232,7 +224,6 @@ body {
 }
 
 /*big card*/
-
 .tpcard {
   display:inline-block;
   box-shadow: 0 4px 8px 0 white;
@@ -245,11 +236,9 @@ body {
   max-width: 710px; /*change minimum size of card */
   max-height: 700px;
   min-width: 200px;
-
 }
 
 /*card*/
-
 .hpcard {
   display:inline-block;
   box-shadow: 0 4px 8px 0 white;
@@ -263,7 +252,6 @@ body {
   max-height: 350px;
   min-width: 200px;
   min-height: 400px;
-
 }
 
 .cardimg {
@@ -275,7 +263,6 @@ body {
 .hpcard:hover {
   box-shadow: 0 8px 16px 0 lightblue;
 }
-
 
 .hpcontainer {
   padding: 4px 16px;
@@ -319,20 +306,15 @@ input[type='checkbox'] {
 
 .lbl-toggle {
   display: block;
-
   font-weight: bold;
   font-family: monospace;
   font-size: 1.2rem;
   text-transform: uppercase;
   text-align: center;
-
   padding: 1;
-
   color: black;
   background: #FAE042;
-
   cursor: pointer;
-
   border-radius: 7px;
   transition: all 0.25s ease-out;
 }
@@ -345,22 +327,18 @@ input[type='checkbox'] {
 .lbl-toggle::before {
   content: ' ';
   display: inline-block;
-
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
   border-left: 5px solid currentColor;
-
   vertical-align: middle;
   margin-right: .7rem;
   transform: translateY(-2px);
-
   transition: .2s ease-out;
 }
 
 .collapsible-content .content-inner {
   background: rgba(250, 224, 66, .2);
   border-bottom: 1px solid rgba(250, 224, 66, .45);
-
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   padding: .5rem 1rem;
@@ -369,7 +347,6 @@ input[type='checkbox'] {
 .collapsible-content {
   max-height: 0px;
   overflow: hidden;
-
   transition: .25s ease-in-out;
 }
 
