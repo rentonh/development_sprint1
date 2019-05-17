@@ -5,8 +5,11 @@ window.onscroll = function() {scrollFunction()};
 document.getElementById("fixedbutton").style.display = "none";
 document.getElementById("floatBar").style.display = "none";
 
-function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+function makeNavSticky() {
+  var navbar = document.querySelector('.navbar');
+  var bounds = navbar.getBoundingClientRect();
+  if(bounds.top + bounds.height / w <= 0) {
+//    if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
         document.getElementById("fixedbutton").style.display = "block";
         document.getElementById("floatBar").style.display = "block";
     }
@@ -15,6 +18,14 @@ function scrollFunction() {
         document.getElementById("fixedbutton").style.display = "none";
         document.getElementById("floatBar").style.display = "none";
     }
+    updateTimeout = null;
+}
+
+var updateTimeout = null;
+function scrollFunction() {
+  if(!updateTimeout) {
+    window.setTimeout(makeNavSticky, 100);
+  }
 }
 
 
