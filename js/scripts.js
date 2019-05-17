@@ -6,7 +6,7 @@ document.getElementById("fixedbutton").style.display = "none";
 document.getElementById("floatBar").style.display = "none";
 
 function scrollFunction() {
-    if (document.body.scrollTop > 190 || document.documentElement.scrollTop > 190) {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         document.getElementById("fixedbutton").style.display = "block";
         document.getElementById("floatBar").style.display = "block";
     }

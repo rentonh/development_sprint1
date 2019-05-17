@@ -1,4 +1,5 @@
 body {
+  background-image: url(https://www.freepik.com/free-vector/white-textured-paper_4043501.htm);
   min-width: 320px;
 }
 
@@ -170,8 +171,8 @@ body {
 
 #fixedbutton {
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    top: 550px;
+    right: 0px;
 }
 
 .upButton {
@@ -187,42 +188,44 @@ body {
 /*Side Nav*/
 
 .Fixed {
-	position: absolute;
-	bottom: 100px;
-	right: 0px
+	position: fixed;
+	top: 80px;
+
 }
 
 .floatNav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: red;
+  text-align: middle;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 .floatNav li {
-float: center;
+  display: inline-block;
+  float: center;
 }
 
 .floatNav li a {
-display: block;
-color: white;
-text-align: center;
-padding: 16px 5px;
-text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 5px;
+  text-decoration: none;
 }
 
 .floatNav li a:hover {
-background-color: Lightblue;
+  background-color: Lightblue;
 }
 
 .floatNav li a:hover:not(.active) {
-background-color: Lightgreen;
+  background-color: Lightgreen;
 }
 
 .active {
-background-color: grey;
-text-decoration: none;
+  background-color: grey;
+  text-decoration: none;
 }
 
 /*card*/
@@ -244,9 +247,9 @@ text-decoration: none;
 }
 
 .cardimg {
-border-radius: 5px 5px 0 0;
-width:100%;
-height:150px;
+  border-radius: 5px 5px 0 0;
+  width:100%;
+  height:150px;
 }
 
 .hpcard:hover {
