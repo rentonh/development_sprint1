@@ -8,7 +8,7 @@ document.getElementById("floatBar").style.display = "none";
 function makeNavSticky() {
   var navbar = document.querySelector('.navbar');
   var bounds = navbar.getBoundingClientRect();
-  if(bounds.top + bounds.height / w <= 0) {
+  if(bounds.top + bounds.height <= 0) {
 //    if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
         document.getElementById("fixedbutton").style.display = "block";
         document.getElementById("floatBar").style.display = "block";
