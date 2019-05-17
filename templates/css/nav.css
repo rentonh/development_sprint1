@@ -1,0 +1,137 @@
+body {
+  background-image: url(https://www.freepik.com/free-vector/white-textured-paper_4043501.htm);
+  min-width: 320px;
+}
+
+/* new */
+.banner {
+  width:100%;
+  text-align: right;
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #b12818;
+  float:left;
+  margin: 8px 8px 10;
+  text-align: right;
+  color: #fff;
+}
+
+.navbar-nav {
+  width:100%;
+  text-align: left;
+}
+
+.navbar-nav a {
+  text-align: center;
+  min-width: 10%;
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  float: left;
+  text-decoration: none;
+}
+
+.navbar-nav a:hover {
+  color: #000;
+  background-color: #ffec9f;
+}
+
+.navbar.minwidth {
+  min-width: 200px;
+}
+
+
+.CB-linkbtn2 {
+  border-radius: 1px;
+  background-color: #056571;
+  color: #fff;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+
+.CB-linkbtn2:hover {
+  background-color: #033940;
+  opacity: .9;
+  color: #fff;
+}
+
+/*body row*/
+.contentbar {
+  width: 100%;
+  background-color: #fff;
+  float:left;
+  text-align: left;
+}
+
+.contentbar-nav {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  padding: 5px 5px 0;
+}
+
+/*Button going up css*/
+#fixedbutton {
+    position: fixed;
+    top: 570px;
+    right: 0px;
+}
+
+.upButton {
+  width: 4px;
+  height: 4px;
+}
+
+.upButton img {
+  width: 50px;
+  height: 50px;
+}
+
+/*Side Nav*/
+.Fixed {
+	position: fixed;
+	top: 10px;
+  width: 100%;
+}
+
+.floatNav ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: middle;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.floatNav li {
+  display: inline-block;
+  float: center;
+}
+
+.floatNav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 5px;
+  text-decoration: none;
+}
+
+.floatNav li a:hover {
+  background-color: Lightblue;
+}
+
+.floatNav li a:hover:not(.active) {
+  background-color: Lightgreen;
+}
+
+.active {
+  background-color: grey;
+  text-decoration: none;
+}
