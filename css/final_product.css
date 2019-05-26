@@ -3,6 +3,10 @@ body {
   min-width: 320px;
 }
 
+.helvetica {
+  font-family: Helvetica;
+}
+
 /* new */
 .banner {
   width:100%;
