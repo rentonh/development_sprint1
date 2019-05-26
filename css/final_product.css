@@ -258,7 +258,7 @@ body {
   max-width: 350px; /*change minimum size of card */
   max-height: 350px;
   min-width: 200px;
-  min-height: 400px;
+  min-height: 300px;
 }
 
 .cardimg {
@@ -282,7 +282,7 @@ body {
 
 .hpbutton {
   background-color: green;
-  display: inline-block;
+  display: inline-flex;
   border: none;
   color: white;
   padding: 16px 32px;
