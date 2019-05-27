@@ -60,7 +60,6 @@ body {
 
 .navbar-nav {
   width:100%;
-
   text-align: left;
 }
 
@@ -243,6 +242,10 @@ body {
   max-width: 710px; /*change minimum size of card */
   max-height: 700px;
   min-width: 200px;
+}
+
+.tpcard:hover {
+  box-shadow: 0 8px 16px 0 lightblue;
 }
 
 /*card*/
