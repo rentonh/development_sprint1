@@ -251,7 +251,7 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-color: lightblue;
-  max-width: 350px; /*change minimum size of card */
+  max-width: 350px; /*change maximum size of card */
   max-height: 700px;
   min-width: 200px;
   min-height: 400px;
