@@ -240,7 +240,7 @@ body {
   border-style: solid;
   border-color: lightblue;
   max-width: 710px; /*change minimum size of card */
-  max-height: 700px;
+  max-height: 1000px;
   min-width: 200px;
 }
 
