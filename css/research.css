@@ -3,6 +3,10 @@ body {
   min-width: 320px;
 }
 
+.helvetica {
+  font-family: Helvetica;
+}
+
 /* new */
 .banner {
   width:100%;
@@ -56,7 +60,6 @@ body {
 
 .navbar-nav {
   width:100%;
-
   text-align: left;
 }
 
@@ -504,4 +507,64 @@ input[type='checkbox'] {
 
 .toggle:checked + .lbl-toggle + .step7-content {
   max-height: none;
+}
+
+/* pop up */
+.popup_button:hover {
+  background-color: red;
+}
+
+.popup_overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.popup_overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup_main {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup_main .popup_close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.popup_main .popup_close:hover {
+  color: red;
+}
+.popup_main .popup_content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 400px){
+  .box{
+    width: 70%;
+  }
+  .popup_main{
+    width: 70%;
+  }
 }
